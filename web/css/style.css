@@ -1,0 +1,96 @@
+.menunav-bar 
+{
+    background-color:#ffde00 ;
+    padding: 3vh;
+    /*padding: 2vh;*/
+}
+.car .carousel-caption
+{
+    text-align: end;
+
+}
+.menunav-bar .container-fluid img
+{
+    
+    width: 130px;
+    padding: 0%;
+}
+.navbar-nav li a
+{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-nav li a:hover
+{
+    font-size: 17px;
+    transition: ease-in-out 0.3s;
+    padding: 3px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.c1
+{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 10vh;
+    color: azure;
+    background-color: black;
+}
+.c1 h1
+{
+    font-size: 45px;
+}
+.c1 h2
+{
+    font-size: 20px;
+}
+.Content .row img
+{
+    width: 300px;
+    height: auto;
+}
+.Content
+{
+    background-color: black;
+    
+}
+.Content .row .card-body
+{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.Content .row .card
+{
+    border: none;
+
+}
+.menunav-bar .navbar-nav
+{
+    margin-left: 100vh;
+}
+.navbar-nav li a
+{
+    margin-left: 30px;
+
+}
+@media (max-width: 992px){
+	.Content .row .card 
+    {
+        left: 5vh;
+    }
+    .menunav-bar .navbar-nav
+    {
+    margin-left: 4px;
+    }
+}
+@media (max-width: 360px){
+	.Content .row .card 
+    {
+        left: 5vh;
+    }
+    .menunav-bar .navbar-nav
+    {
+    margin-left: 4px;
+    }
+}
